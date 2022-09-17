@@ -1,7 +1,8 @@
 # CalculoDoIMC_Python
 
-# calcularemos o peso em quilos informado pelo usuário;
-# ele será dividido pelo quadrado de sua altura, em metros;
+# calcularemos o peso em quilos informado pelo usuário; ele será dividido pelo quadrado de sua altura, em metros;
+
+
 import math
 def imc(peso, altura):
 
