@@ -1,1 +1,41 @@
 # CalculoDoIMC_Python
+
+# calcularemos o peso em quilos informado pelo usuário;
+# ele será dividido pelo quadrado de sua altura, em metros;
+import math
+def imc(peso, altura):
+
+    # calcimc = cálculo do imc
+    calcimc = peso / (altura**2) 
+    print(round(calcimc))
+
+    # se for maior igual que ou menor igual que, retornará sua classe de peso
+    
+    if calcimc < 15:
+        print("Magreza grave")
+            
+    elif 16.00 <= calcimc <= 17:
+        print("Muito abaixo do peso")
+
+    elif 17.00 <= calcimc <= 18.45:
+        print("Abaixo do peso")
+
+    elif 18.46 <= calcimc <= 24.95:
+        print("Peso normal")
+
+    elif 24.96 <= calcimc <= 29.95:
+        print("Acima do peso")
+    
+    elif 29.96 <= calcimc <= 34.95:
+        print("Obesidade grau I")
+
+    elif 34.96 <= calcimc <= 40:
+        print("Obesidade grau II")
+
+    elif calcimc > 40:
+        print("Obesidade grau III")
+
+    else:
+        print("Incorreto")    
+
+
